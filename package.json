@@ -1,0 +1,25 @@
+{
+  "name": "dao-den-long",
+  "version": "1.0.0",
+  "description": "Đảo Đèn Lồng - A 3D lantern lighting game",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "headless": "node src/headless.js",
+    "test": "node tests/run-tests.js",
+    "test:browser": "node tests/phase4-browser.js",
+    "bench": "node src/bench.js",
+    "soak": "node --jitless --max-semi-space-size=1 --expose-gc src/soak.js",
+    "demo:record": "node src/record-demo.js"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "playwright": "^1.65.1",
+    "vite": "^6.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+out.jsonl
+output.jsonl
+tests/fixtures/*_out*.jsonl
+tests/fixtures/h*_out*.jsonl
